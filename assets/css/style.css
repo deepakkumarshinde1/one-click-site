@@ -1,0 +1,308 @@
+@import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@400;500&family=Tillana&family=Ubuntu&display=swap");
+
+/* font-family: 'Catamaran', sans-serif; */
+:root {
+  --background-col: #fff0e5;
+  --navyblue: #10162f;
+  --dark-yellow: #ffd300;
+  --btn-background: #3a10e5;
+  --blue: #3a10e5;
+}
+.aka-navyblue {
+  background-color: var(--navyblue);
+}
+.aka-dark-yellow {
+  background-color: var(--dark-yellow);
+}
+.aka-blue {
+  background-color: var(--blue);
+}
+.aka-horizontal-line{
+  border-bottom: 1px solid black;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Navbar Starts */
+a {
+  color: black !important;
+  text-decoration: none;
+}
+.aka-navbar-list > li > a:hover {
+  color: #3a10e5 !important;
+}
+
+.aka-fix-header {
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  margin: 0px !important;
+}
+
+.aka-navbar-header {
+  padding: 0.3rem 1.8rem;
+  /* box-shadow: 0px 2px 10px 0px #7084f4; */
+}
+.aka-btn-login{
+  font-weight: 800;
+  background-color: transparent;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+.aka-btn-login:hover{
+  color: var(--blue);
+  background-color: #10162f10;
+  text-decoration: none;
+}
+.aka-btn-sign-up{
+  background-color: var(--btn-background);
+  border: none;
+  padding: 6px 14px;
+  border-radius: 3px;
+  color: white;
+  text-decoration: none;
+}
+.aka-btn-sign-up:hover{
+  text-decoration: none;
+  background-color: #3b10e5e1;
+}
+/* Navbar End */
+
+/* Account Opening From Start */
+label {
+  width: 100%;
+}
+
+input {
+  width: 70%;
+  padding: 0.5rem;
+}
+
+.aka-button {
+  border: none;
+  color: white;
+  background-color: #3a10e5;
+  width: 88.516px;
+  height: 40px;
+  border-radius: 5px;
+}
+.aka-sign-up-from {
+  /* height: 40vw; */
+  margin: 5.5rem 0;
+}
+.aka-color-fff0e5 {
+  background-color: #fff0e5;
+}
+.aka-termsOfService-PrivacyPolicy {
+  width: 22rem;
+  font-size: 0.8rem;
+}
+.aka-social-media-signUpMethod-icon > a {
+  border: 1px solid #303030;
+  padding: 0.8rem 1.3rem;
+}
+
+
+/* Account Opening From End */
+
+/* Popular Courses Start */
+
+.aka-explore-full-course-btn {
+  margin: 14rem 0 2rem 0;
+}
+
+.aka-tabs-popular-cources {
+  margin: 0 18rem;
+  font-size: 14px;
+}
+.aka-tabs-popular-cources > li {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.aka-tabs-popular-cources li {
+  border-bottom: 2px solid white;
+  cursor: pointer;
+  position: relative;
+}
+.aka-tabs-popular-cources li::after {
+  content: "";
+  position: absolute;
+  bottom: -8%;
+  left: -3%;
+  width: 0%;
+  height: 3px;
+  background: var(--dark-yellow);
+  border-radius: 30px;
+  transition: width 0.8s ease;
+}
+.aka-tabs-popular-cources li.active::after {
+  width: 100%;
+}
+.aka-container {
+  position: relative;
+}
+.aka-content {
+  margin: 0 4rem;
+  /* margin-bottom: 5rem; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.aka-content.active {
+  display: block;
+  animation: fade 1s ease;
+}
+.aka-course-card {
+  transition: transform 0.1s;
+}
+.aka-course-card:hover {
+  cursor: pointer;
+  box-shadow: -10px 10px 0px var(--navyblue);
+  transform: translate(5px, -5px);
+}
+.aka-popular-course-parent {
+  position: relative;
+}
+.aka-blue-zebra-bg-postion {
+  position: absolute;
+  top: 20rem;
+  width: 100%;
+  height: 10rem;
+  background: repeating-linear-gradient(
+    -55deg,
+    #10162f,
+    #3a10e5 1px,
+    #10162f 4px,
+    #3a10e5 2px
+  );
+}
+@keyframes fade {
+  form {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Pupolar Courses End */
+
+/* Take The Quiz Start */
+.aka-take-quiz {
+  padding: 6rem 0;
+}
+.aka-take-quiz-left {
+  width: 22%;
+}
+
+.aka-btn-take-quiz {
+  background-color: var(--btn-background);
+  color: white;
+}
+/* Take The Quiz End */
+
+/* Stories from real people Start */
+.aka-explore-btn:hover {
+  text-decoration: none;
+  background-color: #f3f3f3;
+  /* color: var(--blue); */
+}
+.aka-explore-btn > a {
+  text-decoration: none;
+  color: #3a10e5;
+}
+.aka-people-details:hover {
+  color: var(--blue);
+  cursor: pointer;
+}
+.aka-stories-from-people {
+  position: relative;
+}
+
+.aka-people-img > img {
+  width: 280px;
+  height: 280px;
+  border: 1px solid var(--blue);
+}
+
+.w3r-dot {
+  position: absolute;
+  top: 9.5em;
+  left: -5px;
+  width: 100%;
+  height: 170px;
+  background-image: radial-gradient(#303030 1%, transparent 21%),
+    radial-gradient(#303030 1%, transparent 21%);
+  background-size: 7px 7px;
+  background-repeat: repeat;
+}
+/* Stories from real people End */
+
+/* Join in on something big Start */
+.aka-std-counter {
+  padding: 5rem 8rem;
+  color: white;
+}
+
+/* Join in on something big End */
+
+/* Explore business plans Start */
+.aka-ex-business-plane {
+  color: white;
+  padding: 5rem 9rem;
+}
+.aka-business-left > img {
+  margin-left: -40px;
+}
+
+/* Explore business plans End */
+
+/* Footer Start */
+.aka-footer-link-img {
+  margin-top: -20px;
+  margin-left: -28px;
+}
+.aka-footer-link-tag > a {
+  text-decoration: none;
+}
+
+.aka-footer-link-tag > a:hover {
+  color: var(--blue) !important;
+  text-decoration: none;
+}
+.aka-footer-right-side {
+  border-left: 1px solid black;
+}
+
+.aka-heading-title-sub-lan {
+  font-size: 13px;
+}
+
+.aka-footer-li-tag:hover {
+  color: var(--blue);
+  cursor: pointer;
+}
+/* Footer End */

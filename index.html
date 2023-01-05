@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Learn to Code - for Free | Codecademy</title>
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="/assets/img/favIcon/favicon.ico"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" href="/assets/img/AZA Logos/Asset-1.svg" sizes="32x32" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Bootstrap Start -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap End -->
+    <link rel="stylesheet" href="/assets/css/main.min.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body>
+    <main id="main" class="container-fluid">
+      <!-- Navbar Start -->
+      <div class="container-fluid aka-color-fff0e5">
+        <div class="container">
+          <div class="row position-sticky aka-fix-header">
+            <nav class="navbar navbar-expand-lg navbar-light aka-navbar-header">
+              <a class="navbar-brand" href="/index.html"
+                ><img
+                  src="/assets/img/Codecacadmy Logo/codecademyPNG.png"
+                  alt=""
+              /></a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto aka-navbar-list">
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Catalog
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </div>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Resources
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </div>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Community
+                    </a>
+                    <div
+                      class="dropdown-menu aka-dropdown"
+                      aria-labelledby="navbarDropdown"
+                    >
+                      <a class="dropdown-item mb-3" href="#">Forums</a>
+                      <a class="dropdown-item mb-3" href="#">Discord</a>
+                      <a class="dropdown-item mb-3" href="#">Chapters</a>
+                      <a class="dropdown-item mb-3" href="#">Events</a>
+                      <a class="dropdown-item mb-3" href="#">Learner Stories</a>
+                    </div>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Pricing
+                    </a>
+                    <div
+                      class="dropdown-menu aka-dropdown"
+                      aria-labelledby="navbarDropdown"
+                    >
+                      <a class="dropdown-item mb-3" href="#">For Individuals</a>
+                      <a class="dropdown-item mb-3" href="#">For Students</a>
+                      <a class="dropdown-item mb-3" href="#">For Teams</a>
+                    </div>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Business Solutions</a>
+                  </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                  <a href=""
+                    ><img
+                      width="45px"
+                      src="/assets/icons/magnifying-glass.png"
+                      alt=""
+                  /></a>
+                  <a href="/html/login.html" class="aka-btn-login">Log In</a>
+                </form>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <!-- Navbar End -->
+
+      <!-- Account Opening Form Start -->
+      <div class="container-fluid aka-color-fff0e5">
+        <div class="container">
+          <div class="row">
+            <div
+              class="d-lg-flex justify-content-center align-items-center col-lg-12 aka-sign-up-from"
+            >
+              <div class="col-lg-6">
+                <img width="480px" src="/assets/img/homePage.webp" alt="" />
+              </div>
+              <div class="col-lg-6">
+                <form action="">
+                  <div class="h3 fs-2">
+                    Join the millions learning to code with Codecademy for free
+                  </div>
+                  <div class="mb-4 aka-email">
+                    <label for="">Email</label>
+                    <input type="email" name="" id="" />
+                  </div>
+
+                  <div class="mb-4 aka-password">
+                    <label for="">Password</label>
+                    <input type="password" name="" id="" />
+                  </div>
+
+                  <button class="mb-4 aka-button">Sign Up</button>
+                  <div class="mb-3 aka-termsOfService-PrivacyPolicy">
+                    By signing up for Codecademy, you agree to Codecademy's
+                    <a href="">Terms of Service</a> &
+                    <a href="">Privacy Policy</a>.
+                  </div>
+                  <div class="h1 fs-6 mb-4">Or sign up using:</div>
+                  <div class="aka-social-media-signUpMethod-icon">
+                    <a class="me-3 bg-light" href=""
+                      ><img
+                        width="20px"
+                        src="/assets/icons/linkedin.png"
+                        alt=""
+                    /></a>
+                    <a class="me-3 bg-light" href=""
+                      ><img width="20px" src="/assets/icons/google.png" alt=""
+                    /></a>
+                    <a class="me-3 bg-light" href=""
+                      ><img
+                        width="20px"
+                        src="/assets/icons/facebook.png"
+                        alt=""
+                    /></a>
+                    <a class="me-3 bg-light" href=""
+                      ><img width="20px" src="/assets/icons/github.png" alt=""
+                    /></a>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Account Opening Form End -->
+
+      <!-- Popular Courses Start -->
+      <div
+        class="conatainer-fluid pt-5 pb-5 aka-navyblue aka-popular-course-parent"
+      >
+        <div class="aka-popular-cources">
+          <div class="fs-5 text-white text-center">Start Learning</div>
+          <div class="h3 fs-1 text-white text-center">Popular Courses</div>
+        </div>
+        <div class="container-fluid aka-blue-zebra-bg-postion"></div>
+        <div class="container">
+          <section>
+            <ul
+              class="d-flex list-unstyled justify-content-between text-center text-white text-center aka-tabs-popular-cources"
+            >
+              <li class="pb-2">Free</li>
+              <li class="pb-2">New to coding</li>
+              <li class="pb-2">Most Popular</li>
+              <li class="pb-2">Skill paths</li>
+              <li class="pb-2">Career paths</li>
+            </ul>
+
+            <div class="aka-container">
+              <div class="container">
+                <div class="aka-content">
+                  <div class="row">
+                    <div class="col-lg-12 d-flex justify-content-between">
+                      <div class="col-3 m-2 p-3 bg-white aka-course-card">
+                        <div>Course</div>
+                        <div class="h4">Learn JavaScript</div>
+                        <div>
+                          <li>Beginner friendly, <b>11</b> Lessons</li>
+                        </div>
+                        <div class="mt-5 text-end">Language Fluency</div>
+                      </div>
+                      <div class="col-3 m-2 p-3 bg-white aka-course-card">
+                        <div>Course</div>
+                        <div class="h4">Learn HTML</div>
+                        <div>
+                          <li>Beginner friendly, <b>6</b> Lessons</li>
+                        </div>
+                        <div class="mt-5 text-end">Language Fluency</div>
+                      </div>
+                      <div class="col-3 m-2 p-3 bg-white aka-course-card">
+                        <div>Course</div>
+                        <div class="h4">Learn SQL</div>
+                        <div>
+                          <li>Beginner friendly, <b>4</b> Lessons</li>
+                        </div>
+                        <div class="mt-5 text-end">Language Fluency</div>
+                      </div>
+                      <div class="col-3 m-2 p-3 bg-white aka-course-card">
+                        <div>Course</div>
+                        <div class="h4">Learn Java: Introduction</div>
+                        <div>
+                          <li>Beginner friendly, <b>3</b> Lessons</li>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="aka-content">
+                  <div class="row">
+                    <div class="col-lg-12 d-flex justify-content-evenly">
+                      <div class="col-3 m-2 p-3 bg-white aka-course-card">
+                        <div>Course</div>
+                        <div class="h4">Learn How to Code</div>
+                        <div>
+                          <li>Beginner friendly, <b>7</b> Lessons</li>
+                        </div>
+                        <div class="mt-5 text-end">Welcome Series</div>
+                      </div>
+                      <div class="col-3 m-2 p-3 bg-white aka-course-card">
+                        <div>Course</div>
+                        <div class="h4">Choosing a Programming Language</div>
+                        <div><li>Beginner friendly</li></div>
+                      </div>
+                      <div class="col-3 m-2 p-3 bg-white aka-course-card">
+                        <div>Course</div>
+                        <div class="h4">Choosing a Career in Tech</div>
+                        <div><li>Beginner friendly</li></div>
+                      </div>
+                      <div class="col-3 m-2 p-3 bg-white aka-course-card">
+                        <div>Course</div>
+                        <div class="h4">Welcome To Codecademy</div>
+                        <div>
+                          <li>Beginner friendly, <b>1</b> Lessons</li>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="aka-content">
+                  <div class="row">
+                    <div class="col-lg-12 d-flex justify-content-evenly">
+                      <div class="col-3 m-2 p-3 bg-white aka-course-card">
+                        <div>Course</div>
+                        <div class="h4">Learn Python 3</div>
+                        <div>
+                          <li>Beginner friendly, <b>14</b> Lessons</li>
+                        </div>
+                        <div class="mt-5 text-end">Language Fluency</div>
+                      </div>
+                      <div class="col-3 m-2 p-3 bg-white aka-course-card">
+                        <div>Course</div>
+                        <div class="h4">Learn JavaScript</div>
+                        <div>
+                          <li>Beginner friendly, <b>11</b> Lessons</li>
+                        </div>
+                        <div class="mt-5 text-end">Language Fluency</div>
+                      </div>
+                      <div class="col-3 m-2 p-3 bg-white aka-course-card">
+                        <div>Course</div>
+                        <div class="h4">Learn HTML</div>
+                        <div>
+                          <li>Beginner friendly, <b>6</b> Lessons</li>
+                        </div>
+                        <div class="mt-5 text-end">Language Fluency</div>
+                      </div>
+                      <div class="col-3 m-2 p-3 bg-white aka-course-card">
+                        <div>Course</div>
+                        <div class="h4">Learn C++</div>
+                        <div>
+                          <li>Beginner friendly, <b>13</b> Lessons</li>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="aka-content">
+                  <div class="row">
+                    <div class="col-lg-12 d-flex justify-content-evenly">
+                      <div class="col-3 m-2 p-3 bg-white aka-course-card">
+                        <div>
+                          <span class="bg-black text-white">PRO</span>
+                          <span>Skill Path</span>
+                        </div>
+                        <div class="h5">
+                          Build a Website with HTML, CSS, and GitHub Pages
+                        </div>
+                        <div>
+                          <li>Beginner friendly, <b>18</b> Lessons</li>
+                        </div>
+                        <div class="mt-5 text-end">With Final Project</div>
+                      </div>
+                      <div class="col-3 m-2 p-3 bg-white aka-course-card">
+                        <div>
+                          <span class="bg-black text-white">PRO</span>
+                          <span>Skill Path</span>
+                        </div>
+                        <div class="h4">Analyze Data with SQL</div>
+                        <div>
+                          <li>Beginner friendly, <b>15</b> Lessons</li>
+                        </div>
+                        <div class="mt-5 text-end">With Final Project</div>
+                      </div>
+                      <div class="col-3 m-2 p-3 bg-white aka-course-card">
+                        <div>
+                          <span class="bg-black text-white">PRO</span>
+                          <span>Skill Path</span>
+                        </div>
+                        <div class="h4">Data Science Foundations</div>
+                        <div>
+                          <li>Beginner friendly, <b>49</b> Lessons</li>
+                        </div>
+                        <div class="mt-5 text-end">Job Essentials</div>
+                      </div>
+                      <div class="col-3 m-2 p-3 bg-white aka-course-card">
+                        <div>
+                          <span class="bg-black text-white">PRO</span>
+                          <span>Skill Path</span>
+                        </div>
+                        <div class="h4">Create a Front-End App with React</div>
+                        <div>
+                          <li>Intermediate, <b>25</b> Lessons</li>
+                        </div>
+                        <div class="mt-5 text-end">With Final Project</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="aka-content">
+                  <div class="row">
+                    <div class="col-lg-12 d-flex justify-content-evenly">
+                      <div class="col-3 m-2 p-3 bg-white aka-course-card">
+                        <div>
+                          <span class="bg-black text-white">PRO</span>
+                          <span>Career Path</span>
+                        </div>
+                        <div class="h4">Fornt-End Engineer</div>
+                        <div>
+                          <li>Beginner friendly, <b>131</b> Lessons</li>
+                        </div>
+                        <div class="mt-5 text-end">Job Essentials</div>
+                      </div>
+                      <div class="col-3 m-2 p-3 bg-white aka-course-card">
+                        <div>
+                          <span class="bg-black text-white">PRO</span>
+                          <span>Career Path</span>
+                        </div>
+                        <div class="h4">Full-Stack Engineer</div>
+                        <div>
+                          <li>Beginner friendly, <b>169</b> Lessons</li>
+                        </div>
+                        <div class="mt-5 text-end">Job Essentials</div>
+                      </div>
+                      <div class="col-3 m-2 p-3 bg-white aka-course-card">
+                        <div>
+                          <span class="bg-black text-white">PRO</span>
+                          <span>Career Path</span>
+                        </div>
+                        <div class="h4">Computer Science</div>
+                        <div>
+                          <li>Beginner friendly, <b>82</b> Lessons</li>
+                        </div>
+                        <div class="mt-5 text-end">Foundations</div>
+                      </div>
+                      <div class="col-3 m-2 p-3 bg-white aka-course-card">
+                        <div>
+                          <span class="bg-black text-white">PRO</span>
+                          <span>Career Path</span>
+                        </div>
+                        <div class="h5 fs-5">
+                          Data Scientist: Machine Learning Specialist
+                        </div>
+                        <div>
+                          <li>Beginner friendly, <b>81</b> Lessons</li>
+                        </div>
+                        <div class="mt-5 text-end">Job Essentials</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center">
+                  <button
+                    class="position-relative btn btn-warning aka-explore-full-course-btn"
+                  >
+                    Explore Full Catalog
+                  </button>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="container aka-vs-code-img-section">
+          <div class="row">
+            <div class="col-lg-12 d-flex">
+              <div class="col-lg-8 aka-vs-code-editor-img">
+                <img src="/assets/img/StartCoding/VS Code Editor.png" alt="" />
+              </div>
+              <div
+                class="col-lg-4 d-flex flex-column justify-content-center text-white"
+              >
+                <div class="mb-3">Beginners welcome</div>
+                <div class="fw-bolder h1 mb-4">Start coding in seconds</div>
+                <div class="mb-4">
+                  Go ahead, give it a try. Our hands-on learning environment
+                  means you'll be writing real code from your very first lesson.
+                </div>
+                <div class="d-flex">
+                  <button class="btn text-warning border-warning me-4">
+                    Continue lesson
+                  </button>
+                  <button class="btn text-warning">
+                    More beginner courses
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Popular Courses End -->
+
+      <!-- Take The Quiz Start -->
+      <div class="container-fluid">
+        <div class="row">
+          <div
+            class="d-flex justify-content-evenly aka-dark-yellow aka-take-quiz"
+          >
+            <div class="aka-take-quiz-left">
+              <div class="h1 fw-bold">Not sure where to start?</div>
+              <div>
+                This short quiz will sort you out. Answer a few simple questions
+                to get personal career advice and course recommendations.
+              </div>
+              <form action="">
+                <button class="btn mt-4 py-2 px-3 text-white aka-btn-take-quiz">
+                  Take the quiz
+                </button>
+              </form>
+            </div>
+            <div class="aka-take-quiz-right">
+              <img src="/assets/img/Take Quiz/1.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Take The Quiz End -->
+
+      <!-- Stories from real people Start -->
+      <div class="container-fluid aka-color-fff0e5 aka-stories-from-people">
+        <div class="w3r-dot"></div>
+        <div class="container pt-5 pb-5">
+          <div class="row">
+            <div class="h1">Stories from real people</div>
+            <div class="d-flex justify-content-between">
+              <div>Watch and read stories from the Codecademy community.</div>
+              <button class="btn aka-explore-btn">
+                <a href="">Explore more stories →</a>
+              </button>
+            </div>
+          </div>
+          <div class="row pt-5">
+            <div class="col-lg-12 d-flex flex-wrap aka-people-details-parent">
+              <div class="col-lg-3 aka-people-details">
+                <div class="aka-people-img">
+                  <img src="/assets/img/Peoples/GiacomoSorbi.jpeg" alt="" />
+                </div>
+                <div class="aka-people-info">
+                  <h3 class="fs-5 fw-bolder">
+                    Taking a different path: One Team Lead's story
+                  </h3>
+                  <p>Giacomo S., Team Lead, London</p>
+                </div>
+              </div>
+              <div class="col-lg-3 aka-people-details">
+                <div class="aka-people-img">
+                  <img src="/assets/img/Peoples/AlisonVoghel.jpg" alt="" />
+                </div>
+                <div class="aka-people-info">
+                  <h3 class="fs-5 fw-bolder">
+                    See how this Architect switched to UX Design
+                  </h3>
+                  <p>Alison V., Senior UX Designer @ Acquia, Columbus</p>
+                </div>
+              </div>
+              <div class="col-lg-3 aka-people-details">
+                <div class="aka-people-img">
+                  <img src="/assets/img/Peoples/ManuelSousa.jpg" alt="" />
+                </div>
+                <div class="aka-people-info">
+                  <h3 class="fs-5 fw-bolder">
+                    Lessons from a Chef turned Deputy CTO
+                  </h3>
+                  <p>Manuel S., Deputy CTO @ PaxFamilia, Brussls</p>
+                </div>
+              </div>
+              <div class="col-lg-3 aka-people-details">
+                <div class="aka-people-img">
+                  <img src="/assets/img/Peoples/Rosita.jpg" alt="" />
+                </div>
+                <div class="aka-people-info">
+                  <h3 class="fs-5 fw-bolder">
+                    How one Developer learned to code with her disability
+                  </h3>
+                  <p>Rosit R., Front-end Developer, Brummen</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Stories from real people End -->
+
+      <!-- Join in on something big Start-->
+      <div class="container-fluid aka-std-counter aka-blue">
+        <div class="container">
+          <div class="row ms-5 me-5">
+            <div class="row">
+              <div class="d-flex fle">
+                <div class="col-4">
+                  <div class="h1">Join in on something big</div>
+                </div>
+                <div class="col">
+                  <div class="h1 text-center fw-bolder">50M</div>
+                  <div class="h4 text-center fw-bolder">Learners</div>
+                </div>
+                <div class="col">
+                  <div class="h1 text-center fw-bolder">150+</div>
+                  <div class="h4 text-center fw-bolder">Countries</div>
+                </div>
+                <div class="col">
+                  <div class="h1 text-center fw-bolder">3.7B</div>
+                  <div class="h4 text-center fw-bolder">Code submits</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Join in on something big Start-->
+
+      <!-- Explore business plans Start  -->
+      <div class="container-fluid aka-ex-business-plane aka-navyblue">
+        <div class="container">
+          <div class="row ms-5 me-4">
+            <div class="col-9 aka-business-left">
+              <img
+                class=""
+                src="/assets/img/Codecacadmy Logo/codecademyWhitePNG.png"
+                alt=""
+              />
+              <div>
+                <div class="w-50 h1 fw-bolder">Level up your team's skills</div>
+                <div class="w-50 pt-2">
+                  Give your team the knowledge, experience, and confidence they
+                  need to tackle any problem.
+                </div>
+                <button class="mt-4 py-2 px-4 btn btn-warning">
+                  Explore business plans
+                </button>
+              </div>
+            </div>
+            <div class="col-3">
+              <img src="/assets/img/Business/1.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Explore business plans End  -->
+
+      <!-- Start For Free Start  -->
+      <div class="container-fluid aka-ex-business-plane aka-blue">
+        <div class="container">
+          <div class="row ms-5 me-4">
+            <div class="d-flex align-items-center">
+              <div class="col-8">
+                <img
+                  width="450px"
+                  class="d-flex align-items-center"
+                  src="/assets/img/StartForFree/1.webp"
+                  alt=""
+                />
+              </div>
+              <div class="col-4 aka-business-left">
+                <div>
+                  <div class="h1 fw-bolder">Start for free</div>
+                  <div class="pt-2">
+                    If you’ve made it this far, you must be at least a little
+                    curious. Sign up and take the first step toward your goals.
+                  </div>
+                  <button class="mt-4 py-2 px-4 btn btn-warning">
+                    Sign up
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Start For Free End  -->
+
+      <!-- Footer Start -->
+      <div class="conatiner-fluid aka-color-fff0e5">
+        <div class="container">
+          <div class="row pt-5">
+            <div class="d-flex col-12">
+              <div class="col-6">
+                <div class="row pb-3">
+                  <div class="col-4">
+                    <div class="pb-2 aka-footer-link-img">
+                      <img
+                        src="/assets/img/Codecacadmy Logo/codecademyBlackPNG.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="pb-2 aka-footer-link-tag">
+                      <a href="">About</a>
+                    </div>
+                    <div class="pb-2 aka-footer-link-tag">
+                      <a href="">Careers</a>
+                    </div>
+                    <div class="pb-2 aka-footer-link-tag">
+                      <a href="">Affiliates</a>
+                    </div>
+                    <div class="d-flex aka-footer-link-social-icon">
+                      <a href=""
+                        ><img
+                          class="pe-1"
+                          width="25px"
+                          src="/assets/icons/twitter.png"
+                          alt=""
+                      /></a>
+                      <a href=""
+                        ><img
+                          class="pe-1"
+                          width="25px"
+                          src="/assets/icons/facebook-black.png"
+                          alt=""
+                      /></a>
+                      <a href=""
+                        ><img
+                          class="pe-1"
+                          width="25px"
+                          src="/assets/icons/instagram-symbol.png"
+                          alt=""
+                      /></a>
+                      <a href=""
+                        ><img
+                          class="pe-1"
+                          width="25px"
+                          src="/assets/icons/youtube-name-logo.png"
+                          alt=""
+                      /></a>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="pb-3 aka-footer-topic-header">RESOURCES</div>
+                    <ul class="list-unstyled">
+                      <li class="pb-1 aka-footer-li-tag">Projects</li>
+                      <li class="pb-1 aka-footer-li-tag">
+                        Interview Challenges
+                      </li>
+                      <li class="pb-1 aka-footer-li-tag">Docs</li>
+                      <li class="pb-1 aka-footer-li-tag">Cheatsheets</li>
+                      <li class="pb-1 aka-footer-li-tag">Articles</li>
+                      <li class="pb-1 aka-footer-li-tag">Videos</li>
+                      <li class="pb-1 aka-footer-li-tag">Blog</li>
+                      <li class="pb-1 aka-footer-li-tag">Career Center</li>
+                    </ul>
+                  </div>
+                  <div class="col-4">
+                    <div class="pb-3 aka-footer-topic-header">RESOURCES</div>
+                    <ul class="list-unstyled">
+                      <li class="pb-1 aka-footer-li-tag">Forums</li>
+                      <li class="pb-1 aka-footer-li-tag">Discord</li>
+                      <li class="pb-1 aka-footer-li-tag">Chapters</li>
+                      <li class="pb-1 aka-footer-li-tag">Events</li>
+                      <li class="pb-1 aka-footer-li-tag">Learner Stories</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-4">
+                    <div class="pb-3 aka-footer-topic-header">Mobile</div>
+                    <div class="pb-3 aka-play-IOS-store">
+                      <img
+                        src="/assets/img/Mobile-Apps/IOS App Store.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="pb-3 aka-play-IOS-store">
+                      <img
+                        src="/assets/img/Mobile-Apps/Google Store.webp"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="pb-3 aka-footer-topic-header">
+                      INDIVIDUAL PLANS
+                    </div>
+                    <ul class="list-unstyled">
+                      <li class="pb-1 aka-footer-li-tag">Paid Memberships</li>
+                      <li class="pb-1 aka-footer-li-tag">For Students</li>
+                    </ul>
+                  </div>
+                  <div class="col-4">
+                    <div class="pb-3 aka-footer-topic-header">
+                      ENTERPRISE PLANS
+                    </div>
+                    <ul class="list-unstyled">
+                      <li class="pb-1 aka-footer-li-tag">Business Solutions</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="row justify-content-lg-center">
+                  <div class="col-4">
+                    <div class="pb-3 aka-footer-topic-header">SUPPORT</div>
+                    <ul class="list-unstyled">
+                      <li class="pb-1 aka-footer-li-tag">Help Center</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Right Side -->
+
+              <div class="col-6 aka-footer-right-side">
+                <div class="row ms-5 pb-3">
+                  <div class="pb-3 aka-footer-topic-header">COURSE CATALOG</div>
+                  <div class="col-4">
+                    <div class="fw-bold pb-3 aka-heading-title-sub-lan">
+                      Subjects
+                    </div>
+                    <ul class="list-unstyled">
+                      <li class="pb-1 aka-footer-li-tag">Web Development</li>
+                      <li class="pb-1 aka-footer-li-tag">Data Science</li>
+                      <li class="pb-1 aka-footer-li-tag">Computer Science</li>
+                      <li class="pb-1 aka-footer-li-tag">Developer Tools</li>
+                      <li class="pb-1 aka-footer-li-tag">Machine Learning</li>
+                      <li class="pb-1 aka-footer-li-tag">Code Foundations</li>
+                      <li class="pb-1 aka-footer-li-tag">Web Design</li>
+                      <li class="pb-1 aka-footer-li-tag">—</li>
+                      <li class="pb-1 aka-footer-li-tag">Full Catalog</li>
+                      <li class="pb-1 aka-footer-li-tag">Beta Content</li>
+                      <li class="pb-1 aka-footer-li-tag">Roadmap</li>
+                    </ul>
+                  </div>
+
+                  <div class="col-6 ms-5">
+                    <div class="fw-bold pb-3 aka-heading-title-sub-lan">
+                      Languages
+                    </div>
+                    <div class="d-flex">
+                      <ul class="list-unstyled me-5">
+                        <li class="pb-1 aka-footer-li-tag">HTML & CSS</li>
+                        <li class="pb-1 aka-footer-li-tag">Python</li>
+                        <li class="pb-1 aka-footer-li-tag">JavaScript</li>
+                        <li class="pb-1 aka-footer-li-tag">Java</li>
+                        <li class="pb-1 aka-footer-li-tag">SQL</li>
+                        <li class="pb-1 aka-footer-li-tag">Bash/Shell</li>
+                        <li class="pb-1 aka-footer-li-tag">Ruby</li>
+                      </ul>
+                      <ul class="list-unstyled ms-5">
+                        <li class="pb-1 aka-footer-li-tag">C++</li>
+                        <li class="pb-1 aka-footer-li-tag">R</li>
+                        <li class="pb-1 aka-footer-li-tag">C#</li>
+                        <li class="pb-1 aka-footer-li-tag">PHP</li>
+                        <li class="pb-1 aka-footer-li-tag">Go</li>
+                        <li class="pb-1 aka-footer-li-tag">Swift</li>
+                        <li class="pb-1 aka-footer-li-tag">Kotlin</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <hr class="" />
+
+          <div class="row">
+            <div class="col">
+              <div
+                class="d-lg-flex justify-content-between mb-3 fs-6 aka-footer-privacy-cookie-terms"
+              >
+                <div class="aka-footer-privacy-cookie-terms-left">
+                  <a href="">Privacy Policy</a> | <a href="">Cookie Policy</a> |
+                  <a href=""> Do Not Sell My Personal Information</a> |
+                  <a href="">Terms</a>
+                </div>
+                <div class="aka-footer-privacy-cookie-terms-right">
+                  <div>Made with ❤️in NYC © 2022 Codecademy</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer end -->
+    </main>
+
+    <!--  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <!--  -->
+    <script src="/assets/js/index.js"></script>
+    <script src="/assets/js/p-cources.js"></script>
+  </body>
+</html>
